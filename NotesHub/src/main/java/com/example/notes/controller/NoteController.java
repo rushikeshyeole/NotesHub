@@ -25,7 +25,7 @@ import com.example.notes.service.NoteService;
 
 @RestController
 @RequestMapping("/teacher")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://notes-hub1.vercel.app")
 public class NoteController 
 {
 	 @Autowired

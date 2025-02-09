@@ -11,7 +11,7 @@ import com.example.notes.service.AnnouncementService;
 
 @RestController
 @RequestMapping("/announcement")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://notes-hub1.vercel.app")
 public class AnnouncementController
 {
 	@Autowired

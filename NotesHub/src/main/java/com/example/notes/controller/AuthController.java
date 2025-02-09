@@ -90,7 +90,7 @@ import com.example.notes.service.AuthService;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:3000")  // Adjust frontend URL
+@CrossOrigin(origins = "https://notes-hub1.vercel.app")  // Adjust frontend URL
 public class AuthController
 {
 	@Autowired
